@@ -1,3 +1,3 @@
 <h1>
-    >. kawaii .<
+    >.kawaii.<
 </h1>

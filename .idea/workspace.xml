@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2109da31-25ee-4f29-a306-dd2b3f083948" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Common/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Common/Common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/View/Back/TemplateTrialView.kawaii.php" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/View/Back/TemplateTrialView.kawaii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +43,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666923469284</updated>
-      <workItem from="1666923470814" duration="294000" />
+      <workItem from="1666923470814" duration="461000" />
     </task>
+    <task id="LOCAL-00001" summary="routing fixed">
+      <created>1666923781908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666923781908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="routing fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="routing fixed" />
   </component>
 </project>

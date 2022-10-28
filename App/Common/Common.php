@@ -16,7 +16,6 @@ abstract class Common{
             }
 
         eval('?>' . $contents . '<?php');
-            var_dump($contents);
         }else{
             exit('<h1>Template Error</h1>');
         }
