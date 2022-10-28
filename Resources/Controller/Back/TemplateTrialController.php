@@ -1,13 +1,21 @@
 <?php
+
+
+use App\Common\common;
+
+include 'App\Common\Common.php';
+
 session_start();
-class EngienController{
+class TemplateTrialController extends Common {
+    public $kawaii = "Kyot is working fine";
     function render(): void
     {
-        require_once 'Resources/View/Back/EngineView.php';
+        $this->assign('kawaii','"Hello there, Kawaii template engine is working"');
+        $this->EngineView('Resources/View/Back/TemplateTrialView');
     }
 
 }
 
-$_SESSION['CurrentSelection'] = 'EngineController';
-$display = new TimelineController;
+$_SESSION['CurrentSelection'] = 'TemplateTrialController';
+$display = new TemplateTrialController;
 $display->render();
